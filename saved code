@@ -1,0 +1,11 @@
+var initGraph = function(penaltyData)
+{
+    var screen = {width:600,height:600}
+    
+    d3.select("#pGraph")
+        .attr("width",screen.width)
+        .attr("height",screen.height)
+    
+    var xScale = d3.scaleLinear()
+        .domain([])
+}
